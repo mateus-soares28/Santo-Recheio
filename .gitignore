@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+.env.local
+*.tsbuildinfo
+/.impeccable/*
+!/.impeccable/design.json
+.playwright-cli/
+output/playwright/

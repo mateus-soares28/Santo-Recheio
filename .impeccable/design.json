@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T01:58:05.803Z",
+  "title": "Design System: Santo Recheio",
+  "extensions": {
+    "colorMeta": {
+      "cream": {
+        "role": "neutral",
+        "displayName": "Creme principal",
+        "canonical": "#f7f1e8",
+        "tonalRamp": [
+          "oklch(15% 0.014 78.3)",
+          "oklch(26% 0.014 78.3)",
+          "oklch(37% 0.014 78.3)",
+          "oklch(48% 0.014 78.3)",
+          "oklch(59% 0.014 78.3)",
+          "oklch(70% 0.014 78.3)",
+          "oklch(82% 0.014 78.3)",
+          "oklch(95% 0.014 78.3)"
+        ]
+      },
+      "cream-deep": {
+        "role": "neutral",
+        "displayName": "Creme profundo",
+        "canonical": "#efe1cd",
+        "tonalRamp": [
+          "oklch(15% 0.031 77.0)",
+          "oklch(26% 0.031 77.0)",
+          "oklch(37% 0.031 77.0)",
+          "oklch(48% 0.031 77.0)",
+          "oklch(59% 0.031 77.0)",
+          "oklch(70% 0.031 77.0)",
+          "oklch(82% 0.031 77.0)",
+          "oklch(95% 0.031 77.0)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#fffaf3",
+        "tonalRamp": [
+          "oklch(15% 0.011 76.6)",
+          "oklch(26% 0.011 76.6)",
+          "oklch(37% 0.011 76.6)",
+          "oklch(48% 0.011 76.6)",
+          "oklch(59% 0.011 76.6)",
+          "oklch(70% 0.011 76.6)",
+          "oklch(82% 0.011 76.6)",
+          "oklch(95% 0.011 76.6)"
+        ]
+      },
+      "cocoa": {
+        "role": "primary",
+        "displayName": "Marrom cacau",
+        "canonical": "#3f2417",
+        "tonalRamp": [
+          "oklch(15% 0.047 46.1)",
+          "oklch(26% 0.047 46.1)",
+          "oklch(37% 0.047 46.1)",
+          "oklch(48% 0.047 46.1)",
+          "oklch(59% 0.047 46.1)",
+          "oklch(70% 0.047 46.1)",
+          "oklch(82% 0.047 46.1)",
+          "oklch(95% 0.047 46.1)"
+        ]
+      },
+      "cocoa-soft": {
+        "role": "neutral",
+        "displayName": "Marrom suave",
+        "canonical": "#674531",
+        "tonalRamp": [
+          "oklch(15% 0.056 51.1)",
+          "oklch(26% 0.056 51.1)",
+          "oklch(37% 0.056 51.1)",
+          "oklch(48% 0.056 51.1)",
+          "oklch(59% 0.056 51.1)",
+          "oklch(70% 0.056 51.1)",
+          "oklch(82% 0.056 51.1)",
+          "oklch(95% 0.056 51.1)"
+        ]
+      },
+      "caramel": {
+        "role": "secondary",
+        "displayName": "Caramelo",
+        "canonical": "#955f34",
+        "tonalRamp": [
+          "oklch(15% 0.080 57.6)",
+          "oklch(26% 0.080 57.6)",
+          "oklch(37% 0.080 57.6)",
+          "oklch(48% 0.080 57.6)",
+          "oklch(59% 0.080 57.6)",
+          "oklch(70% 0.080 57.6)",
+          "oklch(82% 0.080 57.6)",
+          "oklch(95% 0.080 57.6)"
+        ]
+      },
+      "gold": {
+        "role": "tertiary",
+        "displayName": "Dourado suave",
+        "canonical": "#c5a47b",
+        "tonalRamp": [
+          "oklch(15% 0.068 72.5)",
+          "oklch(26% 0.068 72.5)",
+          "oklch(37% 0.068 72.5)",
+          "oklch(48% 0.068 72.5)",
+          "oklch(59% 0.068 72.5)",
+          "oklch(70% 0.068 72.5)",
+          "oklch(82% 0.068 72.5)",
+          "oklch(95% 0.068 72.5)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Linha",
+        "canonical": "#d8c6af",
+        "tonalRamp": [
+          "oklch(15% 0.037 74.0)",
+          "oklch(26% 0.037 74.0)",
+          "oklch(37% 0.037 74.0)",
+          "oklch(48% 0.037 74.0)",
+          "oklch(59% 0.037 74.0)",
+          "oklch(70% 0.037 74.0)",
+          "oklch(82% 0.037 74.0)",
+          "oklch(95% 0.037 74.0)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Títulos editoriais",
+        "purpose": "Hero e títulos de seção em Cormorant Garamond, com ênfase em itálico caramelo."
+      },
+      "body": {
+        "displayName": "Texto e interface",
+        "purpose": "Parágrafos, navegação, rótulos e botões em DM Sans."
+      }
+    },
+    "shadows": [
+      {
+        "name": "header-scrolled",
+        "value": "0 10px 32px rgba(63, 36, 23, .07)",
+        "purpose": "Separar o cabeçalho após a rolagem."
+      },
+      {
+        "name": "hero-photo",
+        "value": "20px 35px 55px rgba(63, 36, 23, .15)",
+        "purpose": "Dar profundidade à foto principal."
+      },
+      {
+        "name": "hero-caption",
+        "value": "12px 18px 35px rgba(63, 36, 23, .1)",
+        "purpose": "Elevar a legenda sobre a foto."
+      },
+      {
+        "name": "mobile-cta",
+        "value": "0 -7px 25px rgba(63, 36, 23, .15)",
+        "purpose": "Separar o CTA fixo do conteúdo mobile."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-fast",
+        "value": "0.2s ease",
+        "purpose": "Cor de links e ações compactas."
+      },
+      {
+        "name": "state-standard",
+        "value": "0.25s ease",
+        "purpose": "Hover de botões, setas e controles."
+      },
+      {
+        "name": "image-zoom",
+        "value": "0.7s cubic-bezier(.2,.7,.2,1)",
+        "purpose": "Aproximação leve da foto de categoria no hover."
+      },
+      {
+        "name": "hero-entrance",
+        "value": "GSAP power3.out, 0.55–1.05s",
+        "purpose": "Entrada escalonada de texto, ações e foto no hero."
+      },
+      {
+        "name": "scroll-reveal",
+        "value": "GSAP power2.out, 0.75s",
+        "purpose": "Revelação única de conteúdo ao entrar na viewport."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "large",
+        "value": "1180px"
+      },
+      {
+        "name": "tablet",
+        "value": "899px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "small-mobile",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "CTA marrom para iniciar o pedido.",
+      "html": "<a class=\"ds-button ds-button-primary\" href=\"#\">Quero fazer meu pedido <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button{min-height:54px;display:inline-flex;justify-content:center;align-items:center;gap:20px;padding:14px 21px;border-radius:50%;font:700 12px/1.4 var(--sans,\"DM Sans\",Arial,sans-serif);letter-spacing:.035em;text-decoration:none;transition:transform .25s ease,background .25s ease,color .25s ease,border-color .25s ease;cursor:pointer}.ds-button:hover{transform:translateY(-3px)}.ds-button:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}.ds-button-primary{color:var(--paper,#fffaf3);background:var(--cocoa,#3f2417);border:1px solid var(--cocoa,#3f2417)}.ds-button-primary:hover{background:var(--cocoa-soft,#674531);border-color:var(--cocoa-soft,#674531)}.ds-button-primary:active{transform:translateY(-1px)}"
+    },
+    {
+      "name": "Botão claro",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "CTA sobre o fundo marrom do convite final.",
+      "html": "<a class=\"ds-button ds-button-light\" href=\"#\">Quero pedir agora <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button{min-height:54px;display:inline-flex;justify-content:center;align-items:center;gap:20px;padding:14px 21px;border-radius:50%;font:700 12px/1.4 var(--sans,\"DM Sans\",Arial,sans-serif);letter-spacing:.035em;text-decoration:none;transition:transform .25s ease,background .25s ease,border-color .25s ease;cursor:pointer}.ds-button:hover{transform:translateY(-3px)}.ds-button:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}.ds-button-light{background:var(--paper,#fffaf3);color:var(--cocoa,#3f2417);border:1px solid var(--paper,#fffaf3)}.ds-button-light:hover{background:var(--cream-deep,#efe1cd);border-color:var(--cream-deep,#efe1cd)}.ds-button-light:active{transform:translateY(-1px)}"
+    },
+    {
+      "name": "Bot?o secund?rio",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A??o secund?ria com contorno arredondado e seta.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">Conhecer os produtos <span aria-hidden=\"true\">→</span></a>",
+      "css": ".ds-text-link{min-height:54px;display:inline-flex;align-items:center;gap:20px;padding:14px 21px;border-radius:50%;color:var(--cocoa,#3f2417);border:1px solid var(--line,#d8c6af);font:700 12px/1.4 var(--sans,\"DM Sans\",Arial,sans-serif);letter-spacing:.035em;text-decoration:none;transition:color .25s ease,transform .25s ease}.ds-text-link:hover{color:var(--caramel,#955f34);transform:translateY(-3px)}.ds-text-link:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}.ds-text-link span{font-size:18px;font-weight:400;transition:transform .25s ease}.ds-text-link:hover span{transform:translate(3px,-2px)}"
+    },
+    {
+      "name": "Navegação principal",
+      "kind": "nav",
+      "refersTo": "main-nav",
+      "description": "Links compactos do cabeçalho editorial.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#\">Início</a><a href=\"#\">Nossos produtos</a><a href=\"#\">Sobre nós</a><a href=\"#\">Como pedir</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:24px;padding:18px 0;font-family:var(--sans,\"DM Sans\",Arial,sans-serif)}.ds-nav a{color:var(--cocoa,#3f2417);font-size:12px;font-weight:600;letter-spacing:.07em;text-decoration:none;white-space:nowrap;transition:color .2s ease}.ds-nav a:hover{color:var(--caramel,#955f34)}.ds-nav a:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}@media(max-width:600px){.ds-nav{flex-direction:column;align-items:stretch;gap:0;background:var(--cream,#f7f1e8);padding:20px}.ds-nav a{min-height:48px;display:flex;align-items:center;border-bottom:1px solid var(--line,#d8c6af);font-size:13px}}"
+    },
+    {
+      "name": "Link circular de produto",
+      "kind": "button",
+      "refersTo": "category-link",
+      "description": "Ação compacta ao lado dos títulos de produto.",
+      "html": "<a class=\"ds-round-link\" href=\"#\" aria-label=\"Consultar produto\"><span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-round-link{width:48px;height:48px;display:grid;place-items:center;border:1px solid var(--line,#d8c6af);border-radius:50%;color:var(--cocoa,#3f2417);font:400 18px/1 var(--sans,\"DM Sans\",Arial,sans-serif);text-decoration:none;transition:color .25s,background .25s,border-color .25s}.ds-round-link:hover{color:var(--paper,#fffaf3);background:var(--cocoa,#3f2417);border-color:var(--cocoa,#3f2417)}.ds-round-link:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}.ds-round-link:active{background:var(--cocoa-soft,#674531)}"
+    },
+    {
+      "name": "Legenda sobreposta",
+      "kind": "custom",
+      "refersTo": "hero-photo-caption",
+      "description": "Pequena legenda em papel sobre a foto principal.",
+      "html": "<div class=\"ds-photo-caption\"><span>Bolos de pote</span><span>Santo Recheio</span></div>",
+      "css": ".ds-photo-caption{width:240px;padding:19px 22px;background:var(--paper,#fffaf3);box-shadow:12px 18px 35px rgba(63,36,23,.1);display:grid;gap:3px;color:var(--cocoa,#3f2417)}.ds-photo-caption span:first-child{font:500 26px/1 var(--serif,\"Cormorant Garamond\",Georgia,serif)}.ds-photo-caption span:last-child{font:700 9px/1.4 var(--sans,\"DM Sans\",Arial,sans-serif);text-transform:uppercase;letter-spacing:.15em;color:var(--caramel,#955f34)}"
+    },
+    {
+      "name": "Linha de valor",
+      "kind": "custom",
+      "refersTo": "value-row",
+      "description": "Lista de atributos sobre a seção de fundo cacau.",
+      "html": "<div class=\"ds-value-row\"><span class=\"ds-value-mark\" aria-hidden=\"true\">✧</span><div><h3>Sabor artesanal</h3><p>Confeitaria artesanal em cada escolha.</p></div></div>",
+      "css": ".ds-value-row{display:grid;grid-template-columns:46px 1fr;gap:25px;padding:29px 0;border-top:1px solid rgba(255,250,243,.28);border-bottom:1px solid rgba(255,250,243,.28);background:var(--cocoa,#3f2417);color:var(--paper,#fffaf3)}.ds-value-mark{color:#e6c7a0;font-size:35px;line-height:1}.ds-value-row h3{margin:0;font:500 32px/1 var(--serif,\"Cormorant Garamond\",Georgia,serif)}.ds-value-row p{margin:8px 0 0;color:#dfcdbb;font:400 13px/1.65 var(--sans,\"DM Sans\",Arial,sans-serif)}"
+    },
+    {
+      "name": "WhatsApp flutuante",
+      "kind": "button",
+      "refersTo": "whatsapp-float",
+      "description": "SVG do WhatsApp fixo no canto inferior direito em todas as telas.",
+      "html": "<a class=\"ds-whatsapp-float\" href=\"#\" aria-label=\"Fazer pedido pelo WhatsApp\"><img src=\"/img/whatsapp-original.svg\" alt=\"\"></a>",
+      "css": ".ds-whatsapp-float{position:fixed;right:clamp(18px,3vw,50px);bottom:clamp(18px,3vw,50px);z-index:60;width:64px;height:64px;display:grid;place-items:center;border-radius:50%;filter:drop-shadow(0 10px 14px rgba(30,60,31,.24))}.ds-whatsapp-float img{width:100%;height:100%}.ds-whatsapp-float:focus-visible{outline:2px solid var(--caramel,#955f34);outline-offset:4px}@media(max-width:600px){.ds-whatsapp-float{right:18px;bottom:max(18px,env(safe-area-inset-bottom));width:58px;height:58px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Editorial gastronômico acolhedor",
+    "overview": "Editorial gastronômico acolhedor. Fotos reais permanecem protagonistas. A composição combina espaço generoso, tipografia serifada expressiva e detalhes finos inspirados na marca. Referência visual do usuário: página clara, produto em destaque e ornamentos discretos.",
+    "keyCharacteristics": [
+      "Fotos reais permanecem protagonistas.",
+      "Espaço generoso, tipografia serifada expressiva e detalhes finos inspirados na marca.",
+      "Página clara, produto em destaque e ornamentos discretos."
+    ],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}
