@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { Arrow } from "@/components/Arrow";
 import { getOrderLink } from "@/lib/site";
 
 const links = [
@@ -47,7 +48,7 @@ export function Header() {
         </nav>
 
         <a className="header-cta" href={getOrderLink()} target="_blank" rel="noopener noreferrer">
-          Fazer meu pedido <span aria-hidden="true">↗</span>
+          Fazer meu pedido <Arrow diagonal />
         </a>
         <button
           className="menu-toggle"

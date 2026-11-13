@@ -186,10 +186,9 @@ em {
   background: var(--cocoa);
   color: var(--paper);
 }
-.header-cta span {
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 1;
+.header-cta .arrow {
+  width: 17px;
+  height: 17px;
 }
 .menu-toggle,
 .mobile-order-link {
@@ -320,10 +319,9 @@ em {
   color: var(--caramel);
 }
 .arrow {
-  font-family: var(--sans);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1;
+  width: 18px;
+  height: 18px;
+  flex: none;
   display: inline-block;
   transition: transform 0.25s ease;
 }

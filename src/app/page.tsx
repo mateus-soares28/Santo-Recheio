@@ -1,13 +1,10 @@
 import Image, { getImageProps } from "next/image";
+import { Arrow } from "@/components/Arrow";
 import { Header } from "@/components/Header";
 import { FlavorCarouselControls } from "@/components/FlavorCarouselControls";
 import { HeroSceneLoader } from "@/components/HeroSceneLoader";
 import { MotionController } from "@/components/MotionController";
 import { categories, getOrderLink, potCakes, site } from "@/lib/site";
-
-function Arrow({ diagonal = false }: { diagonal?: boolean }) {
-  return <span className="arrow" aria-hidden="true">{diagonal ? "↗" : "→"}</span>;
-}
 
 function ValueIcon({ kind }: { kind: "artisan" | "choice" | "taste" }) {
   return (
@@ -50,6 +47,8 @@ export default function Home() {
     <>
       <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
       <Header />
+      <div id="smooth-wrapper">
+        <div id="smooth-content">
       <main id="conteudo">
         <section className="hero" id="inicio" aria-labelledby="hero-title">
           <div className="hero-photo">
@@ -167,6 +166,8 @@ export default function Home() {
         </div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} Santo Recheio. Todos os direitos reservados.</span><span>Feito com carinho.</span></div>
       </footer>
+        </div>
+      </div>
       <a
         className="whatsapp-float"
         href={getOrderLink()}
