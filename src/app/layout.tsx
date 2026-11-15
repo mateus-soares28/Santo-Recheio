@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { getSiteUrl } from "@/lib/site-url";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const siteUrl = getSiteUrl();
+const preview = process.env.VERCEL_ENV === "preview";
 
 export const metadata: Metadata = {
-  metadataBase: siteUrl ? new URL(siteUrl) : undefined,
+  metadataBase: new URL(siteUrl),
   title: "Santo Recheio | Bolos de pote e empadões artesanais",
   icons: { icon: "/img/logo.jpg" },
   description:
@@ -12,14 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Santo Recheio | Confeitaria Artesanal",
     description: "Bolos de pote, tortas salgadas e empadões para saborear com carinho.",
+    url: siteUrl,
     type: "website",
     locale: "pt_BR",
-    images: siteUrl
-      ? [{ url: new URL("/img/logo-2.jpg", siteUrl).toString(), width: 1600, height: 600, alt: "Santo Recheio Confeitaria Artesanal" }]
-      : undefined,
+    images: [{ url: new URL("/img/logo-2.jpg", siteUrl).toString(), width: 1600, height: 600, alt: "Santo Recheio Confeitaria Artesanal" }],
   },
-  alternates: siteUrl ? { canonical: siteUrl } : undefined,
-  robots: { index: true, follow: true },
+  alternates: { canonical: siteUrl },
+  robots: { index: !preview, follow: !preview },
+  verification: { google: "8Sw_TpcUhkNkYmIKkVFSmJH_Dc_S4M2foUFdj7PZC0o" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
